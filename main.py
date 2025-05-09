@@ -118,6 +118,8 @@ if __name__ == "__main__":
         reports = [
             "hours_worked",
             "hourly_rate",
+            "rate",
+            "salary"
         ]  # дополнительные параметры выводимые на экран
         reports += args.report.replace(" ", "").split(",")
         report.show_reports(reports)

@@ -1,0 +1,42 @@
+ТЕСТЫ
+
+collected 11 items
+
+test_main.py::test_read_report PASSED                                                                         [  9%]
+test_main.py::test_read_report_with_different_headers PASSED                                                  [ 18%]
+test_main.py::test_read_report_missing_file PASSED                                                            [ 27%]
+test_main.py::test_calculate_payout PASSED                                                                    [ 36%]
+test_main.py::test_calculate_payout_with_different_headers PASSED                                             [ 45%]
+test_main.py::test_calculate_payout_missing_columns PASSED                                                    [ 54%]
+test_main.py::test_calculate_payout_partial_data PASSED                                                       [ 63%]
+test_main.py::test_show_reports PASSED                                                                        [ 72%]
+test_main.py::test_main_with_payout_report PASSED                                                             [ 81%]
+test_main.py::test_main_with_custom_report PASSED                                                             [ 90%]
+test_main.py::test_parameter_constants PASSED                                                                 [100%]
+
+================================================== tests coverage ==================================================
+_________________________________ coverage: platform win32, python 3.12.0-final-0 __________________________________
+
+Name      Stmts   Miss  Cover
+-----------------------------
+main.py      77     18    77%
+-----------------------------
+TOTAL        77     18    77%
+================================================ 11 passed in 0.24s ================================================
+
+ВЫВОД ПРОГРАММЫ
+
+          name           hours_worked hourly_rate rate salary payout 
+Marketing
+--------- Alice Johnson  160          50                      8000
+--------- Henry Martin   150                      35          5250
+Design
+--------- Bob Smith      150          40                      6000
+--------- Carol Williams 170          60                      10200
+HR
+--------- Grace Lee      160                      45          7200
+--------- Ivy Clark      158                      38          6004
+--------- Liam Harris    155                           42     6510
+Sales
+--------- Karen White    165                           50     8250
+--------- Mia Young      160                           37     5920
